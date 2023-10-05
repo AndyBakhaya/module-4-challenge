@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(87, 77, 77);
+    color: rgb(255, 255, 255);
+}
+
+header {
+font-size: 20px;
+text-align: right;
+}
+
+h1 { 
+font-weight: bolder;
+font-size: 50px;
+color: rgb(238, 105, 16);
+margin: 200px 0px 0px 0px;
+}
+
+#startButton {
+background-color: rgb(238, 105, 16);
+height: 50px;
+width: 200px;
+font-size: 30px;
+}
+
+.quizContainer {
+display: none;
+margin: 200px 0px 0px 0px;
+}
+
+h2 {
+font-size: 30px;
+color: rgb(255, 255, 255);
+}
+
+#resultPage {
+font-size: 20px;
+}
+
+#userName {
+font-size: 20px;
+color: rgb(238, 105, 16);
+}

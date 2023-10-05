@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>JS Quiz</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <section id="homePage">
+        <h1>Javascript Quiz</h1>
+        <h3>Answer the following question within the 60s time limit.
+        An incorrect answer results in a 10 second reduction in your total time.</h3>
+        <button id="startButton">Start Quiz </button>
+    </section>
+
+    <section id="quizPage" style="display: none;">
+        <h2>Time Left: <span id="time">60</span> seconds left</h2>
+        <div id="question"></div>
+        <div id="choices"></div>
+    </section>
+
+    <section id="resultPage" style="display:none;">
+        <span id="highScore"></span></p>
+        <input type="text" id="userName" placeholder="Your Name">
+        <br>
+        <button id="nameSubmitButton">Submit</button>
+        <br>
+        <button id="restartButton">Restart</button>
+        <div id="submittedScores"></div>
+    </section>
+
+    <script src="Assets/script.js"></script>
+
+</body>
